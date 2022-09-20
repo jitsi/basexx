@@ -1,0 +1,11 @@
+lua-basexx (0.3-2) unstable; urgency=medium
+
+  * Change Architecture: to all as it's Lua only package
+
+ -- Ondřej Surý <ondrej@debian.org>  Wed, 13 Jul 2016 14:30:29 +0200
+
+lua-basexx (0.3-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Ondřej Surý <ondrej@debian.org>  Wed, 13 Jul 2016 09:52:30 +0200

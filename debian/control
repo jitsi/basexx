@@ -1,0 +1,20 @@
+Source: lua-basexx
+Section: interpreters
+Priority: optional
+Maintainer: Ondřej Surý <ondrej@debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-lua
+Standards-Version: 3.9.8
+Homepage: https://github.com/daurnimator/lua-basexx
+Vcs-Git: git://anonscm.debian.org/pkg-lua/lua-basexx.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-lua/lua-basexx.git
+
+Package: lua-basexx
+Architecture: all
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Provides: ${lua:Provides}
+XB-Lua-Versions: ${lua:Versions}
+Description: baseXX encoding/decoding library for Lua
+ Lua library for base2, base16, base32, base64, base85 decoding and
+ encoding of data strings.
